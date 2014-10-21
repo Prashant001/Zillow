@@ -10,25 +10,26 @@ import java.util.Comparator;
 
 public class TrinaryTree<T> 
 {
-	/**
-	 * Root Node of the tree
-	 */
-	private  TrinaryTreeNode<T> rootNode;
-	/*
-	 * Comparator for this tree
-	 */
-	private final Comparator<T> comparator;
+    /**
+     * Root Node of the tree
+     */
+    private  TrinaryTreeNode<T> rootNode;
+    /*
+     * Comparator for this tree
+     */
+    private final Comparator<T> comparator;
 	 
-	/*
-	 * Factory Method to retuen an instance of Trinary tree
-	 */
-	public static <C extends Comparable<C>> TrinaryTree<C> create() {
-			return new TrinaryTree<C>(new Comparator<C>() {
+    /*
+     * Factory Method to retuen an instance of Trinary tree
+     */
+    public static <C extends Comparable<C>> TrinaryTree<C> create()
+    {
+        return new TrinaryTree<C>(new Comparator<C>() {
 				public int compare(C o1, C o2) {
 					return o1.compareTo(o2);
 				}
 			});
-	}
+    }
 
 	/**
 	 * Constructor 
@@ -46,7 +47,7 @@ public class TrinaryTree<T>
      */
     public void insert(T value)   
     {  
-    	if(value == null)
+       	if(value == null)
     	{
 			throw new IllegalArgumentException("Cannot insert null value");
 		}

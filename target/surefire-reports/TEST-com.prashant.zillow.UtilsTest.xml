@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.016" errors="0" skipped="0" tests="13" name="com.prashant.zillow.UtilsTest">
+<testsuite failures="0" time="0.008" errors="0" skipped="0" tests="13" name="com.prashant.zillow.UtilsTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\jdk1.7.0_55\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\I825227\exercise\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4490511484852520253.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\I825227\exercise\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf189364664997879663.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\jdk1.7.0_55\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\SAP\ASE-16_0\jobscheduler\bin;C:\SAP\ASE-16_0\dll;C:\SAP\ASE-16_0\bin;C:\SAP\SCC-3_3\bin;C:\SAP\DBISQL-16_0\bin;C:\SAP\DataAccess64\ADONET\dll;C:\SAP\DataAccess\ADONET\dll;C:\SAP\DataAccess64\ODBC\dll;C:\SAP\DataAccess\ODBC\dll;C:\SAP\OCS-16_0\lib3p64;C:\SAP\OCS-16_0\lib3p;C:\SAP\OCS-16_0\dll;C:\SAP\OCS-16_0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;c:\Program Files (x86)\Microsoft Application Virtualization Client;c:\Program Files (x86)\Open Text\View\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\Program Files\Broadcom\WHL\;C:\Program Files\Broadcom\WHL\syswow64;C:\Program Files\Broadcom\WHL\SysWow64\;C:\Program Files\Broadcom\WHL\SysWow64\syswow64;C:\Program Files\Hummingbird\Connectivity\14.00\NFS Maestro\;C:\Program Files (x86)\Hummingbird\Connectivity\14.00\NFS Maestro\;C:\apache-maven-3.0.5\bin;O:\bin;C:\Program Files (x86)\OpenText\Viewer\bin;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\jdk1.7.0_55\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,17 +61,17 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.009" classname="com.prashant.zillow.UtilsTest" name="longMaxValueTestBoundary"/>
-  <testcase time="0" classname="com.prashant.zillow.UtilsTest" name="invalidstringAlonePositive"/>
+  <testcase time="0.001" classname="com.prashant.zillow.UtilsTest" name="longMaxValueTestBoundary"/>
+  <testcase time="0.003" classname="com.prashant.zillow.UtilsTest" name="invalidstringAlonePositive"/>
   <testcase time="0" classname="com.prashant.zillow.UtilsTest" name="longMaxValueTest"/>
   <testcase time="0" classname="com.prashant.zillow.UtilsTest" name="invalidstringAloneNegative"/>
-  <testcase time="0.001" classname="com.prashant.zillow.UtilsTest" name="invalidString"/>
+  <testcase time="0" classname="com.prashant.zillow.UtilsTest" name="invalidString"/>
   <testcase time="0" classname="com.prashant.zillow.UtilsTest" name="longMinValueTest"/>
   <testcase time="0" classname="com.prashant.zillow.UtilsTest" name="longLargerMaxValueTest"/>
   <testcase time="0" classname="com.prashant.zillow.UtilsTest" name="positiveLong"/>
   <testcase time="0" classname="com.prashant.zillow.UtilsTest" name="negativeLong"/>
   <testcase time="0" classname="com.prashant.zillow.UtilsTest" name="longSmallerMinValueTest"/>
-  <testcase time="0.001" classname="com.prashant.zillow.UtilsTest" name="invalidstringNullString"/>
+  <testcase time="0" classname="com.prashant.zillow.UtilsTest" name="invalidstringNullString"/>
   <testcase time="0" classname="com.prashant.zillow.UtilsTest" name="longMinValueTestBoundary"/>
-  <testcase time="0.001" classname="com.prashant.zillow.UtilsTest" name="invalidStringSpace"/>
+  <testcase time="0" classname="com.prashant.zillow.UtilsTest" name="invalidStringSpace"/>
 </testsuite>

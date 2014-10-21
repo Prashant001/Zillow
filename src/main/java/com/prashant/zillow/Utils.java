@@ -11,7 +11,8 @@
  */
 package com.prashant.zillow;
 
-public class Utils {
+public class Utils 
+{
 	
 	/**
 	 * Converts a string in base 10 to a long value. 
@@ -36,7 +37,7 @@ public class Utils {
 	 */
 	
 	
-	public static long stringToLong(String s, int radix)
+    public static long stringToLong(String s, int radix)
             throws NumberFormatException
     {
 		if (s == null) 
